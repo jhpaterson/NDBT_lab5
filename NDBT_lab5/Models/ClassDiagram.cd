@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NDBT_lab5.Models.Copy">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQEAEAIAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\Copy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Title" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NDBT_lab5.Models.Shelf">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Shelf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDBT_lab5.Models.Title">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAQAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\Title.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Shelf" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Copies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
